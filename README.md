@@ -21,7 +21,7 @@ An unofficial Nintendo Switch native wrapper for the 32-bit Android release of
 
 ## About
 
-`stevenrpg_nx` is a native wrapper that runs the 32-bit ARM Android build of **Steven Universe: Attack the Light 1.1.4** (`com.turner.stevenrpg`) on Nintendo Switch.
+`stevenrpg_nx` is a native wrapper that runs the 32-bit ARM Android build of **Steven Universe: Attack the Light 1.3.5** (`com.turner.stevenrpg`) on Nintendo Switch.
 
 It loads the game's original Unity 5.3 libraries (`libmain.so`, `libunity.so` and `libmono.so`) and plays the part of the game's Java side: the OpenGL ES context, the activity lifecycle, touch input, FMOD's audio output, the expansion file, and the answers the game asks of a phone. The game's C# runs in its own Mono, with its JIT, on the Switch.
 
@@ -52,7 +52,7 @@ Because the Tegra X1 CPU in the Nintendo Switch natively supports 32-bit ARM (AA
 ### For Players
 - A Nintendo Switch running **Atmosphère** custom firmware.
 - The [Sphaira](https://github.com/ITotalJustice/sphaira) homebrew menu (Important: you need to install Sphaira's forwarder, otherwise the port won't work — the system would start it as a 64-bit program instead of 32-bit).
-- A copy of **Steven Universe: Attack the Light 1.1.4** for Android (`com.turner.stevenrpg`), the APK with `lib/armeabi-v7a/` inside. The name of the APK does not matter.
+- A copy of **Steven Universe: Attack the Light 1.3.5** for Android (`com.turner.stevenrpg`), the APK with `lib/armeabi-v7a/` inside. The name of the APK does not matter.
 - Its expansion file, **`main.52.com.turner.stevenrpg.obb`** (162 MB; on a phone it is in `Android/obb/com.turner.stevenrpg/`). The APK does not contain the game's levels, graphics, sounds and movies.
 
 ---
