@@ -1,0 +1,24 @@
+# build output
+build/
+*.nsp
+*.elf
+*.build
+launcher/build/
+launcher/romfs/
+launcher/*.nro
+launcher/*.nacp
+launcher/*.elf
+*.zip
+
+# the 32-bit Mesa (and FFmpeg) build: tools/get_portlibs.sh, ffmpeg32
+portlibs32/
+
+# the game is the player's own, never part of this repository
+SD_CARD/
+*.apk
+*.xapk
+*.obb
+.DS_Store
+
+# Python
+__pycache__/

@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2026 aks796 (dcr_sea_nx, which this port is built on)
+Copyright (c) 2026 Iqbalriz (stevenrpg_nx)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Parts of this software carry their own notices:
+
+- runtime/source/so_util.c, so_util.h (the android32 runtime, a submodule):
+  Copyright (C) 2021 Andy Nguyen, fgsfds
+  (MIT).
+- runtime/source/nx32_virtmem.c: derived from libnx's kernel/virtmem.c, Copyright
+  libnx authors (ISC).
+- source/su_cursor.c comes from the Costume Quest port (costumequest_nx), and
+  source/su_video.c from the Assassin's Creed port (assassinscreed_nx), which
+  took it from aks796's pvz_touch_nx (pvz_video.c): all MIT.
+- The release program links FFmpeg (ffmpeg32: libavformat, libavcodec,
+  libavutil), which is LGPL 2.1 or later; its source is at ffmpeg.org and the
+  build at github.com/aks796/ffmpeg32. FFmpeg is not part of this repository.
